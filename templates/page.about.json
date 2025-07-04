@@ -11,7 +11,7 @@
       "type": "image-with-text",
       "settings": {
         "image_position": "right",
-        "image_width": 6,
+        "image_width": 400,
         "title": "Meet the Artist",
         "text": "<p>I'm a ceramic artist based in Lake Stevens, Washington, where I create functional pottery in my home studio. My journey with clay began several years ago as a way to slow down and create something beautiful with my hands.</p><p>Working from my small studio, I throw each piece individually on the pottery wheel, taking time to ensure every curve and line feels just right. There's something magical about transforming a lump of clay into something that will be used and loved in someone's home.</p>",
         "button_label": "Shop Current Collection",
