@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "debug": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"padding: 20px; background: #f0f0f0; margin: 20px; font-family: monospace;\">\n  <h1>Collection Debug Info</h1>\n  <p><strong>Collection Handle:</strong> {{ collection.handle }}</p>\n  <p><strong>Collection Title:</strong> {{ collection.title }}</p>\n  <p><strong>Collection ID:</strong> {{ collection.id }}</p>\n  <p><strong>Products Count:</strong> {{ collection.products.size }}</p>\n  <p><strong>Collection exists:</strong> {{ collection != empty }}</p>\n  <p><strong>Request path:</strong> {{ request.path }}</p>\n  <p><strong>Template:</strong> {{ template }}</p>\n  \n  <h2>First 3 Products:</h2>\n  {% for product in collection.products limit: 3 %}\n    <p>{{ forloop.index }}. {{ product.title }} ({{ product.handle }})</p>\n  {% endfor %}\n</div>"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {}
+    }
+  },
+  "order": [
+    "debug", 
+    "main"
+  ]
+}

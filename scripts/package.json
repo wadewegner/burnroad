@@ -1,0 +1,24 @@
+{
+  "name": "shopify-automation-scripts",
+  "version": "1.0.0",
+  "description": "Automation scripts for Burn Road Ceramics Shopify store setup",
+  "main": "index.js",
+  "scripts": {
+    "setup-collections": "node create-collections.js",
+    "setup-products": "node create-products.js",
+    "setup-navigation": "node create-navigation.js",
+    "assign-products": "node assign-products-to-collections.js",
+    "setup-all": "node setup-all.js",
+    "test-connection": "node test-connection.js"
+  },
+  "dependencies": {
+    "@shopify/admin-api-client": "^1.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "node": "^20.0.0"
+  },
+  "keywords": ["shopify", "automation", "pottery", "e-commerce"],
+  "author": "Burn Road Ceramics",
+  "license": "MIT"
+} 

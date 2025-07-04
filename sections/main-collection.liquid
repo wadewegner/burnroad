@@ -1,3 +1,4 @@
+<!-- DEBUG: Collection {{ collection.handle | default: 'NOT_FOUND' }} has {{ collection.products.size | default: 0 }} products -->
 <div data-section-id="{{ section.id }}" {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
 {% paginate collection.products by section.settings.coll_num_per_page_int %}
 
