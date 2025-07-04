@@ -64,7 +64,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "logo": "{{ shop.brand.logo }}",
         "logo_img_width_int": 150,
