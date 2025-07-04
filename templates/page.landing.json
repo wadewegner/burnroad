@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/your-hero-image.jpg"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Most-Loved Pieces",
+        "collection": "bestsellers",
+        "show_view_all": true
+      }
+    },
+    "about": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/studio.jpg",
+        "image_position": "left"
+      }
+    },
+    "process": {
+      "type": "rich-text",
+      "settings": {
+        "color_scheme": "background-1"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "subheading": "<p>Get updates on new releases, events, and one-of-a-kind pieces.</p>",
+        "color_scheme": "accent-1"
+      }
+    },
+    "instagram": {
+      "type": "custom-liquid",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "featured_collection",
+    "about",
+    "process",
+    "newsletter",
+    "instagram"
+  ]
+}
