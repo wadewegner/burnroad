@@ -1,72 +1,14 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "hero_slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_1": {
-          "type": "image",
-          "settings": {
-            "slide_link": "/collections/all",
-            "subheading": "Handcrafted in Lake Stevens, WA",
-            "title": "Small Batch Pottery",
-            "heading_max_width": 15,
-            "title_size": 84,
-            "title_size_mobile": 46,
-            "use_h1": true,
-            "text": "<p>Each piece is hand-thrown and fired with care in monthly kiln loads</p>",
-            "enlarge_text": true,
-            "button_label_1": "Shop Current Collection",
-            "button_url_1": "/collections/all",
-            "button_label_2": "This Month's Kiln Load",
-            "button_url_2": "/pages/this-months-kiln-load",
-            "text_alignment": "center center"
-          }
-        },
-        "slide_2": {
-          "type": "image",
-          "settings": {
-            "slide_link": "/pages/custom-orders",
-            "subheading": "Custom Orders Available",
-            "title": "Made Just for You",
-            "heading_max_width": 15,
-            "title_size": 84,
-            "title_size_mobile": 46,
-            "use_h1": false,
-            "text": "<p>Commission a custom piece designed specifically for your home</p>",
-            "enlarge_text": true,
-            "button_label_1": "Learn More",
-            "button_url_1": "/pages/custom-orders",
-            "button_label_2": "Shop Ready-Made",
-            "button_url_2": "/collections/all",
-            "text_alignment": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_1",
-        "slide_2"
-      ],
+    "hero_section": {
+      "type": "rich-text",
       "settings": {
-        "height": "fixed",
-        "height_desktop": 600,
-        "height_mobile": 460,
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style": "full image-overlay--bg-shadow",
-        "transition": "fade",
-        "navigation": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7,
-        "accessibility_info": ""
+        "title": "Small Batch Pottery",
+        "text": "<p>Handcrafted in Lake Stevens, WA<br>Each piece is hand-thrown and fired with care in monthly kiln loads</p>",
+        "text_alignment": "center",
+        "color_scheme": "1",
+        "button_label": "Shop Current Collection",
+        "button_url": "/collections/all"
       }
     },
     "announcement": {
@@ -82,7 +24,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Current Collection",
-        "collection": "current-kiln-load",
+        "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
         "show_view_all": true,
@@ -147,7 +89,7 @@
     }
   },
   "order": [
-    "hero_slideshow",
+    "hero_section",
     "announcement",
     "featured_collection",
     "about_preview",
