@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "narrow"
+      }
+    },
+    "rich_text_intro": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Commission a Custom Piece",
+        "text": "<p>I love creating custom pieces that reflect your personal style and needs. Whether you're looking for a special gift, a set of dinnerware, or a unique vase, I can work with you to bring your vision to life.</p><p>Each custom order is carefully planned and crafted with the same attention to detail as my regular collection. Lead times vary depending on complexity and my current kiln schedule.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "multi_column": {
+      "type": "multi-column",
+      "blocks": {
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "title": "Process",
+            "text": "<p>1. Initial consultation to discuss your vision<br>2. Design sketch and materials selection<br>3. Deposit required to begin work<br>4. Hand-crafting and glazing<br>5. Firing and finishing<br>6. Final delivery or pickup</p>"
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "title": "Timeline",
+            "text": "<p>Custom orders typically take 4-6 weeks from design approval to completion. This includes drying time, glazing, and firing cycles.</p><p>Rush orders may be available for an additional fee, depending on current workload.</p>"
+          }
+        },
+        "column_3": {
+          "type": "column",
+          "settings": {
+            "title": "Pricing",
+            "text": "<p>Custom work is priced based on size, complexity, and materials used. Most custom pieces range from $50-$300.</p><p>A 50% deposit is required to begin work, with the balance due upon completion.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_1",
+        "column_2", 
+        "column_3"
+      ],
+      "settings": {
+        "title": "How It Works",
+        "columns_desktop": 3,
+        "color_scheme": "2"
+      }
+    },
+    "contact_form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Start Your Custom Order",
+        "text": "<p>Ready to commission a custom piece? Use the form below to tell me about your project. Include details about size, style, colors, and intended use.</p>",
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_intro",
+    "multi_column",
+    "contact_form"
+  ]
+} 

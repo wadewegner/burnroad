@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "narrow"
+      }
+    },
+    "announcement": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Fresh from the Kiln",
+        "text": "<p>This month's kiln load included 58 pieces - a mix of mugs, bowls, and decorative pieces. Each piece is now ready to find its new home. When these sell out, you'll need to wait for next month's firing.</p><p><strong>Fired on:</strong> December 15, 2024<br><strong>Pieces in this load:</strong> 58<br><strong>Next firing:</strong> Mid-January 2025</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "December 2024 Kiln Load",
+        "collection": "current-kiln-load",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": "6",
+        "title": "Small Batch, Big Attention",
+        "text": "<p>Working in small monthly batches allows me to give each piece individual attention. From the initial throwing to the final glazing, every step is done by hand with care and intention.</p><p>This month's load featured my signature earth-tone glazes with some exciting new color experiments. Each piece is food-safe and dishwasher safe, designed for everyday use.</p>",
+        "button_label": "Shop All Available",
+        "button_url": "/collections/all",
+        "color_scheme": "1"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Get Kiln Load Updates",
+        "text": "<p>Be the first to know when new pieces come out of the kiln. I'll send you a monthly email with photos of the latest batch and first access to new pieces.</p>",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "announcement",
+    "featured_collection",
+    "image_with_text",
+    "newsletter"
+  ]
+} 

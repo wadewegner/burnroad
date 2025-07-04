@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "narrow"
+      }
+    },
+    "shipping_info": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Shipping Information",
+        "text": "<p>I take great care in packaging each piece to ensure it arrives safely. All pottery is wrapped in bubble wrap and surrounded by protective padding. Most orders ship within 1-2 business days via USPS Priority Mail.</p><p><strong>Shipping Costs:</strong><br>• Orders under $75: $12 flat rate<br>• Orders $75 and above: Free shipping<br>• Local pickup available in Lake Stevens, WA by appointment</p>",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "returns_info": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Returns & Exchanges",
+        "text": "<p>Your satisfaction is important to me. If you're not completely happy with your purchase, I'm here to help.</p><p><strong>Damaged Items:</strong><br>If your pottery arrives damaged, please email me photos within 48 hours. I'll send a replacement or provide a full refund, including return shipping costs.</p><p><strong>Returns:</strong><br>Undamaged items may be returned within 14 days of delivery for a full refund. Items must be in original condition. Customer pays return shipping unless the item was damaged or defective.</p>",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "multi_column": {
+      "type": "multi-column",
+      "blocks": {
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "title": "Careful Packaging",
+            "text": "<p>Each piece is individually wrapped in bubble wrap and surrounded by protective padding. I use sturdy boxes and clearly mark them as fragile.</p>"
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "title": "Tracking Included",
+            "text": "<p>You'll receive tracking information via email once your order ships. Most orders arrive within 2-3 business days.</p>"
+          }
+        },
+        "column_3": {
+          "type": "column",
+          "settings": {
+            "title": "Local Pickup",
+            "text": "<p>Save on shipping and see pieces in person! Local pickup is available by appointment in Lake Stevens, WA.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_1",
+        "column_2",
+        "column_3"
+      ],
+      "settings": {
+        "title": "Our Shipping Promise",
+        "columns_desktop": 3,
+        "color_scheme": "1"
+      }
+    },
+    "contact_section": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Questions?",
+        "text": "<p>If you have any questions about shipping or returns, please don't hesitate to reach out. I'm here to help ensure you have a great experience with your pottery purchase.</p>",
+        "text_alignment": "center",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shipping_info",
+    "returns_info",
+    "multi_column",
+    "contact_section"
+  ]
+} 

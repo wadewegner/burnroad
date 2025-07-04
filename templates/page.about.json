@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "narrow"
+      }
+    },
+    "image_with_text": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "right",
+        "image_width": "6",
+        "title": "Meet the Artist",
+        "text": "<p>In my Lake Stevens studio I produce about 50–70 pieces per month. Each mug, bowl, and plate is hand-thrown, glazed, and fired one by one, ensuring each is truly unique. Working in small batches lets me focus on form and finish while keeping my work personal and intentional.</p><p>I fire my kiln about once a month, producing a limited collection of work each time. What you see here is what's fresh from the latest firing.</p>",
+        "button_label": "Shop Current Collection",
+        "button_url": "/collections/all",
+        "color_scheme": "1"
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "settings": {
+        "title": "The Process",
+        "text": "<p>Most months I throw and glaze about 50 pieces, which I list here as they come out of the kiln. Each piece begins on the pottery wheel, where I shape the clay by hand. After drying, I apply glazes that I've developed over years of experimentation.</p><p>The firing process takes place in my electric kiln, reaching temperatures of over 2000°F. This transforms the clay and glaze into durable, beautiful ceramics ready for everyday use.</p>",
+        "text_alignment": "center",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text", 
+    "rich_text"
+  ]
+} 

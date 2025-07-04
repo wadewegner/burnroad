@@ -9,138 +9,91 @@
  */
 {
   "sections": {
-    "heading": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Customer Help",
-            "title_size": 52
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If talking to a real-life human is more your thing, you can reach our Customer Happiness Team via email (below).</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "height": "fixed",
-        "height_desktop": 400,
-        "height_mobile": 300
-      }
-    },
     "main": {
-      "type": "faq-header",
-      "settings": {}
-    },
-    "faq-content-1": {
-      "type": "collapsible-tabs",
-      "blocks": {
-        "question-1": {
-          "type": "question",
-          "settings": {
-            "title": "What size should I buy?",
-            "answer": "<p>If you’re not quite sure which size is right for you, refer to our size guides. They’re located underneath the available sizes for each of our products.</p>"
-          }
-        },
-        "question-2": {
-          "type": "question",
-          "settings": {
-            "title": "Can I cancel my order?",
-            "answer": "<p>We completely get it, we change our minds too! While we wish could, once an order is placed, we are unable to alter or cancel it at this time. We hope to have a cancellation window one day in the future.</p><p>Should the item(s) not work out, make sure to exchange for a preferred style or return for a refund. As a reminder, domestic return shipping is free.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question-1",
-        "question-2"
-      ],
+      "type": "main-page",
       "settings": {
-        "title": "Ordering"
+        "show_title": true,
+        "page_width": "narrow"
       }
     },
-    "faq-content-2": {
+    "faq_section": {
       "type": "collapsible-tabs",
       "blocks": {
-        "para-1": {
-          "type": "content",
+        "faq_1": {
+          "type": "collapsible_tab",
           "settings": {
-            "content": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.</p>"
+            "title": "How many pieces do you make each month?",
+            "content": "<p>I produce about 50-70 pieces per month in my Lake Stevens studio. Each piece is hand-thrown and finished individually, ensuring quality and uniqueness. I fire my kiln once or twice monthly, depending on the season and my production schedule.</p>"
           }
         },
-        "question-1": {
-          "type": "question",
+        "faq_2": {
+          "type": "collapsible_tab",
           "settings": {
-            "title": "What is the shipping policy?",
-            "answer": "<p>Once your order is placed, you will receive a confirmation email letting you know that our fulfillment team has received your order. Once your order is fulfilled, you will receive an email notification with your tracking information. Shipping fees are non-refundable in the case of returns.</p>"
+            "title": "Are your pieces food safe and dishwasher safe?",
+            "content": "<p>Yes! All my functional pottery is made with food-safe glazes and fired to stoneware temperatures (over 2000°F). They're safe for dishwasher, microwave, and oven use. I recommend hand washing for decorative pieces to preserve their beauty.</p>"
           }
         },
-        "question-2": {
-          "type": "question",
+        "faq_3": {
+          "type": "collapsible_tab",
           "settings": {
-            "title": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout.</p>"
+            "title": "What if a piece arrives damaged?",
+            "content": "<p>I pack each piece carefully with bubble wrap and padding, but accidents can happen. If your pottery arrives damaged, please email me photos within 48 hours and I'll send a replacement or full refund. Your satisfaction is my priority.</p>"
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "Do you take custom orders?",
+            "content": "<p>Yes! I love creating custom pieces. Custom orders typically take 4-6 weeks from design approval to completion. This includes the full cycle of throwing, drying, glazing, and firing. A 50% deposit is required to begin work.</p>"
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "How should I care for my pottery?",
+            "content": "<p>Hand washing is recommended for longevity, though dishwasher use is fine. Avoid sudden temperature changes (don't put hot pieces in cold water). Store carefully to prevent chips. With proper care, your pottery will last for generations.</p>"
+          }
+        },
+        "faq_6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "When will you restock sold-out items?",
+            "content": "<p>Each piece is unique, so exact restocks aren't possible. However, I create similar pieces in each kiln load. If you see something you love, I recommend purchasing it - it may be weeks or months before I create something similar.</p>"
+          }
+        },
+        "faq_7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "Do you offer local pickup?",
+            "content": "<p>Yes! I'm located in Lake Stevens, WA, and local pickup is available by appointment. This saves on shipping costs and lets you see the pieces in person. Contact me to arrange a pickup time.</p>"
+          }
+        },
+        "faq_8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "What glazes do you use?",
+            "content": "<p>I use a variety of glazes that I've developed over years of experimentation. My signature glazes include earth tones, sage greens, and warm browns. All glazes are lead-free and food safe. Each firing can produce slight variations in color.</p>"
           }
         }
       },
       "block_order": [
-        "para-1",
-        "question-1",
-        "question-2"
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7",
+        "faq_8"
       ],
       "settings": {
-        "title": "Shipping, Returns & Exchanges"
+        "title": "Frequently Asked Questions",
+        "color_scheme": "1"
       }
-    },
-    "contact": {
-      "type": "rich-text",
-      "blocks": {
-        "icon": {
-          "type": "icon",
-          "settings": {
-            "icon": "chat_bubble"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Get in touch"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Have questions about your order, or a general enquiry?</p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Contact us"
-          }
-        }
-      },
-      "block_order": [
-        "icon",
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {}
     }
   },
   "order": [
-    "heading",
     "main",
-    "faq-content-1",
-    "faq-content-2",
-    "contact"
+    "faq_section"
   ]
 }
