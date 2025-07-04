@@ -7,31 +7,41 @@
         "page_width": "narrow"
       }
     },
-    "image_with_text": {
+    "artist_story": {
       "type": "image-with-text",
       "settings": {
         "image_position": "right",
-        "image_width": "6",
+        "image_width": 6,
         "title": "Meet the Artist",
-        "text": "<p>In my Lake Stevens studio I produce about 50–70 pieces per month. Each mug, bowl, and plate is hand-thrown, glazed, and fired one by one, ensuring each is truly unique. Working in small batches lets me focus on form and finish while keeping my work personal and intentional.</p><p>I fire my kiln about once a month, producing a limited collection of work each time. What you see here is what's fresh from the latest firing.</p>",
+        "text": "<p>I'm a ceramic artist based in Lake Stevens, Washington, where I create functional pottery in my home studio. My journey with clay began several years ago as a way to slow down and create something beautiful with my hands.</p><p>Working from my small studio, I throw each piece individually on the pottery wheel, taking time to ensure every curve and line feels just right. There's something magical about transforming a lump of clay into something that will be used and loved in someone's home.</p>",
         "button_label": "Shop Current Collection",
         "button_url": "/collections/all",
         "color_scheme": "1"
       }
     },
-    "rich_text": {
+    "process_section": {
       "type": "rich-text",
       "settings": {
         "title": "The Process",
-        "text": "<p>Most months I throw and glaze about 50 pieces, which I list here as they come out of the kiln. Each piece begins on the pottery wheel, where I shape the clay by hand. After drying, I apply glazes that I've developed over years of experimentation.</p><p>The firing process takes place in my electric kiln, reaching temperatures of over 2000°F. This transforms the clay and glaze into durable, beautiful ceramics ready for everyday use.</p>",
+        "text": "<p>Each piece begins as a ball of clay centered on my pottery wheel. I throw the basic form, then spend time refining the shape, adding details, and ensuring the proportions feel balanced. After the initial throwing, pieces need to dry slowly for 1-2 weeks.</p><p>Once leather-hard, I trim the bottoms, add any final details, and apply my signature stamp. The pieces then go through their first firing (bisque) at about 1800°F, followed by glazing and a final firing at 2232°F.</p><p>This process takes 3-4 weeks for each piece, but the result is pottery that's both beautiful and built to last generations.</p>",
         "text_alignment": "center",
         "color_scheme": "2"
+      }
+    },
+    "studio_info": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Small Batch Philosophy",
+        "text": "<p>I intentionally keep my production small - usually 50-70 pieces per month. This allows me to focus on quality over quantity, ensuring each piece meets my standards for both function and beauty.</p><p>When you purchase from Burn Road Ceramics, you're not just buying pottery - you're supporting a small business and getting a piece that was made with intention and care.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
       }
     }
   },
   "order": [
     "main",
-    "image_with_text", 
-    "rich_text"
+    "artist_story",
+    "process_section",
+    "studio_info"
   ]
 } 

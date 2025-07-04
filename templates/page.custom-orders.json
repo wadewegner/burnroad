@@ -20,21 +20,21 @@
       "type": "multi-column",
       "blocks": {
         "column_1": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
             "title": "Process",
             "text": "<p>1. Initial consultation to discuss your vision<br>2. Design sketch and materials selection<br>3. Deposit required to begin work<br>4. Hand-crafting and glazing<br>5. Firing and finishing<br>6. Final delivery or pickup</p>"
           }
         },
         "column_2": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
             "title": "Timeline",
             "text": "<p>Custom orders typically take 4-6 weeks from design approval to completion. This includes drying time, glazing, and firing cycles.</p><p>Rush orders may be available for an additional fee, depending on current workload.</p>"
           }
         },
         "column_3": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
             "title": "Pricing",
             "text": "<p>Custom work is priced based on size, complexity, and materials used. Most custom pieces range from $50-$300.</p><p>A 50% deposit is required to begin work, with the balance due upon completion.</p>"
@@ -55,8 +55,8 @@
     "contact_form": {
       "type": "contact-form",
       "settings": {
-        "title": "Start Your Custom Order",
-        "text": "<p>Ready to commission a custom piece? Use the form below to tell me about your project. Include details about size, style, colors, and intended use.</p>",
+        "contact_title": "Start Your Custom Order",
+        "contact_text": "<p>Ready to commission a custom piece? Use the form below to tell me about your project. Include details about size, style, colors, and intended use.</p>",
         "color_scheme": "1"
       }
     }

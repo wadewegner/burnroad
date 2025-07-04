@@ -7,52 +7,55 @@
         "page_width": "narrow"
       }
     },
-    "announcement": {
-      "type": "rich-text",
-      "settings": {
-        "title": "Fresh from the Kiln",
-        "text": "<p>This month's kiln load included 58 pieces - a mix of mugs, bowls, and decorative pieces. Each piece is now ready to find its new home. When these sell out, you'll need to wait for next month's firing.</p><p><strong>Fired on:</strong> December 15, 2024<br><strong>Pieces in this load:</strong> 58<br><strong>Next firing:</strong> Mid-January 2025</p>",
-        "text_alignment": "center",
-        "color_scheme": "1"
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "December 2024 Kiln Load",
-        "collection": "current-kiln-load",
-        "products_to_show": 12,
-        "columns_desktop": 3,
-        "show_view_all": true,
-        "color_scheme": "2"
-      }
-    },
-    "image_with_text": {
+    "kiln_intro": {
       "type": "image-with-text",
       "settings": {
         "image_position": "left",
-        "image_width": "6",
-        "title": "Small Batch, Big Attention",
-        "text": "<p>Working in small monthly batches allows me to give each piece individual attention. From the initial throwing to the final glazing, every step is done by hand with care and intention.</p><p>This month's load featured my signature earth-tone glazes with some exciting new color experiments. Each piece is food-safe and dishwasher safe, designed for everyday use.</p>",
-        "button_label": "Shop All Available",
+        "image_width": 6,
+        "title": "December 2024 Kiln Load",
+        "text": "<p>This month's firing was particularly successful! I loaded the kiln with 58 pieces, including several new glaze experiments that turned out beautifully.</p><p>Featured in this load are sage green mugs, speckled bowls, and a limited series of vases with my new copper-fleck glaze. Each piece is one-of-a-kind and ready to ship.</p>",
+        "button_label": "Shop This Collection",
         "button_url": "/collections/all",
         "color_scheme": "1"
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "featured_pieces": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Get Kiln Load Updates",
-        "text": "<p>Be the first to know when new pieces come out of the kiln. I'll send you a monthly email with photos of the latest batch and first access to new pieces.</p>",
+        "title": "Featured Pieces from This Load",
+        "collection": "all",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
         "color_scheme": "2"
+      }
+    },
+    "kiln_details": {
+      "type": "rich-text",
+      "settings": {
+        "title": "About This Firing",
+        "text": "<p>This kiln load was fired to cone 6 (approximately 2232°F) over a 12-hour period. The slow cooling cycle took another 24 hours, allowing the glazes to develop their full depth and character.</p><p>I tested three new glaze combinations in this firing, and I'm excited to share the results with you. The copper-fleck glaze creates beautiful metallic highlights that catch the light differently throughout the day.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "next_kiln": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Next Kiln Load",
+        "text": "<p>I'm already preparing for January's firing! I have several custom orders in progress, plus new experiments with a deep forest green glaze.</p><p>Subscribe to my newsletter to get notified when the next kiln load is ready. You'll be the first to see new pieces and get early access to limited pieces.</p>",
+        "text_alignment": "center",
+        "color_scheme": "2",
+        "button_label": "Subscribe for Updates",
+        "button_url": "#newsletter"
       }
     }
   },
   "order": [
     "main",
-    "announcement",
-    "featured_collection",
-    "image_with_text",
-    "newsletter"
+    "kiln_intro",
+    "featured_pieces",
+    "kiln_details",
+    "next_kiln"
   ]
 } 

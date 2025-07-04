@@ -35,7 +35,7 @@
       "type": "image-with-text",
       "settings": {
         "image_position": "left",
-        "image_width": "6",
+        "image_width": 6,
         "title": "Handcrafted with Intention",
         "text": "<p>In my Lake Stevens studio, I create about 50-70 pieces each month. Every mug, bowl, and vase is hand-thrown on the pottery wheel, glazed, and fired with individual attention.</p><p>Working in small batches allows me to ensure each piece meets my standards for both beauty and function. When you purchase from Burn Road Ceramics, you're getting truly handmade pottery.</p>",
         "button_label": "Learn More About the Process",
@@ -47,21 +47,21 @@
       "type": "multi-column",
       "blocks": {
         "feature_1": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
             "title": "Small Batch Production",
             "text": "<p>Only 50-70 pieces per month means each item gets individual attention from start to finish.</p>"
           }
         },
         "feature_2": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
             "title": "Food Safe & Durable",
             "text": "<p>All pieces are fired to stoneware temperatures and safe for dishwasher, microwave, and oven use.</p>"
           }
         },
         "feature_3": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
             "title": "Custom Orders Welcome",
             "text": "<p>Have something specific in mind? I love creating custom pieces designed just for you.</p>"

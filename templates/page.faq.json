@@ -20,59 +20,59 @@
       "type": "collapsible-tabs",
       "blocks": {
         "faq_1": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "How many pieces do you make each month?",
-            "content": "<p>I produce about 50-70 pieces per month in my Lake Stevens studio. Each piece is hand-thrown and finished individually, ensuring quality and uniqueness. I fire my kiln once or twice monthly, depending on the season and my production schedule.</p>"
+            "title": "How long does pottery take to make?",
+            "answer": "<p>Each piece goes through several stages: throwing on the wheel (30-60 minutes), drying (1-2 weeks), bisque firing (24 hours), glazing (1-2 hours), and final firing (24 hours). From start to finish, each piece takes about 3-4 weeks.</p>"
           }
         },
         "faq_2": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "Are your pieces food safe and dishwasher safe?",
-            "content": "<p>Yes! All my functional pottery is made with food-safe glazes and fired to stoneware temperatures (over 2000°F). They're safe for dishwasher, microwave, and oven use. I recommend hand washing for decorative pieces to preserve their beauty.</p>"
+            "title": "Are your pieces food safe?",
+            "answer": "<p>Yes! All functional pieces are fired to stoneware temperatures (cone 6, approximately 2232°F) and glazed with food-safe glazes. They're dishwasher, microwave, and oven safe up to 400°F.</p>"
           }
         },
         "faq_3": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "What if a piece arrives damaged?",
-            "content": "<p>I pack each piece carefully with bubble wrap and padding, but accidents can happen. If your pottery arrives damaged, please email me photos within 48 hours and I'll send a replacement or full refund. Your satisfaction is my priority.</p>"
+            "title": "Do you take custom orders?",
+            "answer": "<p>Absolutely! I love creating custom pieces. Lead time is typically 4-6 weeks depending on complexity and my current kiln schedule. A 50% deposit is required to begin work. Visit my Custom Orders page for more details.</p>"
           }
         },
         "faq_4": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "Do you take custom orders?",
-            "content": "<p>Yes! I love creating custom pieces. Custom orders typically take 4-6 weeks from design approval to completion. This includes the full cycle of throwing, drying, glazing, and firing. A 50% deposit is required to begin work.</p>"
+            "title": "How often do you fire your kiln?",
+            "answer": "<p>I typically fire 1-2 times per month, depending on how quickly I fill the kiln. Each kiln load contains 50-70 pieces. I announce new firings through my newsletter and social media.</p>"
           }
         },
         "faq_5": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "How should I care for my pottery?",
-            "content": "<p>Hand washing is recommended for longevity, though dishwasher use is fine. Avoid sudden temperature changes (don't put hot pieces in cold water). Store carefully to prevent chips. With proper care, your pottery will last for generations.</p>"
+            "title": "What clay do you use?",
+            "answer": "<p>I primarily work with stoneware clay bodies that are durable and food-safe when fired. The clay comes from reputable suppliers and is mixed specifically for throwing and functional pottery.</p>"
           }
         },
         "faq_6": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "When will you restock sold-out items?",
-            "content": "<p>Each piece is unique, so exact restocks aren't possible. However, I create similar pieces in each kiln load. If you see something you love, I recommend purchasing it - it may be weeks or months before I create something similar.</p>"
+            "title": "Do you offer pottery classes?",
+            "answer": "<p>Currently, I'm focused on production work, but I'm considering offering workshops in the future. Follow my newsletter or social media for updates on any classes I might offer.</p>"
           }
         },
         "faq_7": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "Do you offer local pickup?",
-            "content": "<p>Yes! I'm located in Lake Stevens, WA, and local pickup is available by appointment. This saves on shipping costs and lets you see the pieces in person. Contact me to arrange a pickup time.</p>"
+            "title": "How do you ship fragile pottery?",
+            "answer": "<p>Each piece is carefully wrapped in bubble wrap and packed with plenty of cushioning material. I use sturdy boxes and mark them as fragile. I also offer local pickup in the Lake Stevens area.</p>"
           }
         },
         "faq_8": {
-          "type": "collapsible_tab",
+          "type": "question",
           "settings": {
-            "title": "What glazes do you use?",
-            "content": "<p>I use a variety of glazes that I've developed over years of experimentation. My signature glazes include earth tones, sage greens, and warm browns. All glazes are lead-free and food safe. Each firing can produce slight variations in color.</p>"
+            "title": "What's your return policy?",
+            "answer": "<p>Due to the handmade nature of ceramics, I don't accept returns unless the item arrives damaged. Please inspect your order immediately upon arrival and contact me within 48 hours if there are any issues.</p>"
           }
         }
       },
@@ -87,8 +87,7 @@
         "faq_8"
       ],
       "settings": {
-        "title": "Frequently Asked Questions",
-        "color_scheme": "1"
+        "title": "Frequently Asked Questions"
       }
     }
   },

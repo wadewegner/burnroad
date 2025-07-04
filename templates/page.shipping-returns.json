@@ -7,46 +7,37 @@
         "page_width": "narrow"
       }
     },
-    "shipping_info": {
+    "shipping_intro": {
       "type": "rich-text",
       "settings": {
-        "title": "Shipping Information",
-        "text": "<p>I take great care in packaging each piece to ensure it arrives safely. All pottery is wrapped in bubble wrap and surrounded by protective padding. Most orders ship within 1-2 business days via USPS Priority Mail.</p><p><strong>Shipping Costs:</strong><br>• Orders under $75: $12 flat rate<br>• Orders $75 and above: Free shipping<br>• Local pickup available in Lake Stevens, WA by appointment</p>",
-        "text_alignment": "left",
+        "title": "Shipping & Returns",
+        "text": "<p>I take great care in packaging your pottery to ensure it arrives safely. Each piece is individually wrapped and cushioned for protection during transit.</p>",
+        "text_alignment": "center",
         "color_scheme": "1"
       }
     },
-    "returns_info": {
-      "type": "rich-text",
-      "settings": {
-        "title": "Returns & Exchanges",
-        "text": "<p>Your satisfaction is important to me. If you're not completely happy with your purchase, I'm here to help.</p><p><strong>Damaged Items:</strong><br>If your pottery arrives damaged, please email me photos within 48 hours. I'll send a replacement or provide a full refund, including return shipping costs.</p><p><strong>Returns:</strong><br>Undamaged items may be returned within 14 days of delivery for a full refund. Items must be in original condition. Customer pays return shipping unless the item was damaged or defective.</p>",
-        "text_alignment": "left",
-        "color_scheme": "2"
-      }
-    },
-    "multi_column": {
+    "shipping_details": {
       "type": "multi-column",
       "blocks": {
         "column_1": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
-            "title": "Careful Packaging",
-            "text": "<p>Each piece is individually wrapped in bubble wrap and surrounded by protective padding. I use sturdy boxes and clearly mark them as fragile.</p>"
+            "title": "Shipping Options",
+            "text": "<p><strong>Standard Shipping:</strong> 3-5 business days via UPS Ground<br><strong>Express Shipping:</strong> 1-2 business days available<br><strong>Local Pickup:</strong> Available in Lake Stevens, WA by appointment</p><p>All pottery is marked fragile and insured for full value.</p>"
           }
         },
         "column_2": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
-            "title": "Tracking Included",
-            "text": "<p>You'll receive tracking information via email once your order ships. Most orders arrive within 2-3 business days.</p>"
+            "title": "Packaging",
+            "text": "<p>Each piece is wrapped in bubble wrap and surrounded by eco-friendly packing material. I use sturdy double-wall boxes sized appropriately for your order.</p><p>Large orders may be split into multiple packages to ensure safe delivery.</p>"
           }
         },
         "column_3": {
-          "type": "column",
+          "type": "text_block",
           "settings": {
-            "title": "Local Pickup",
-            "text": "<p>Save on shipping and see pieces in person! Local pickup is available by appointment in Lake Stevens, WA.</p>"
+            "title": "Returns & Exchanges",
+            "text": "<p>Due to the handmade nature of ceramics, I don't accept returns unless items arrive damaged.</p><p>Please inspect your order immediately and contact me within 48 hours if there are any issues. Photos of damage are required for claims.</p>"
           }
         }
       },
@@ -56,26 +47,25 @@
         "column_3"
       ],
       "settings": {
-        "title": "Our Shipping Promise",
+        "title": "Shipping Information",
         "columns_desktop": 3,
-        "color_scheme": "1"
+        "color_scheme": "2"
       }
     },
-    "contact_section": {
+    "care_instructions": {
       "type": "rich-text",
       "settings": {
-        "title": "Questions?",
-        "text": "<p>If you have any questions about shipping or returns, please don't hesitate to reach out. I'm here to help ensure you have a great experience with your pottery purchase.</p>",
+        "title": "Care Instructions",
+        "text": "<p>Your pottery is made to be used and enjoyed daily. All functional pieces are dishwasher, microwave, and oven safe up to 400°F.</p><p>For best longevity, I recommend hand washing. Avoid sudden temperature changes and store carefully to prevent chips.</p><p>With proper care, your pottery will last for generations.</p>",
         "text_alignment": "center",
-        "color_scheme": "2"
+        "color_scheme": "1"
       }
     }
   },
   "order": [
     "main",
-    "shipping_info",
-    "returns_info",
-    "multi_column",
-    "contact_section"
+    "shipping_intro",
+    "shipping_details",
+    "care_instructions"
   ]
 } 
