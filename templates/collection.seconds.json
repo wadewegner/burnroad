@@ -1,0 +1,125 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Seconds Collection",
+        "text": "<p>Beautiful pottery at accessible prices. These pieces have minor imperfections that don't affect their function but make them more affordable. Perfect for everyday use or as gifts.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1",
+        "button_label": "Shop Seconds",
+        "button_url": ""
+      }
+    },
+    "what_are_seconds": {
+      "type": "multi-column",
+      "blocks": {
+        "explanation_1": {
+          "type": "text_block",
+          "settings": {
+            "title": "What Are Seconds?",
+            "text": "<p>Seconds are pieces with minor imperfections like small glaze drips, slight warping, or color variations. They're still functional and beautiful, just not quite perfect.</p>"
+          }
+        },
+        "explanation_2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Same Quality Clay",
+            "text": "<p>These pieces are made from the same clay and fired at the same temperature as regular pieces. They're just as durable and food-safe.</p>"
+          }
+        },
+        "explanation_3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Great Value",
+            "text": "<p>Seconds are priced 20-40% less than regular pieces, making handmade pottery more accessible while still supporting the artist.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "explanation_1",
+        "explanation_2",
+        "explanation_3"
+      ],
+      "settings": {
+        "title": "Understanding Seconds",
+        "columns_desktop": 3,
+        "color_scheme": "2"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": false,
+        "heading_image_height": "large",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "below",
+        "coll_num_per_page_int": 24,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": true,
+        "filter_two_columns": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "2",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "imperfection_guide": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Types of Imperfections",
+        "text": "<p><strong>Glaze Drips:</strong> Small areas where glaze has pooled or dripped during firing<br><strong>Color Variations:</strong> Slight differences from expected glaze color<br><strong>Minor Warping:</strong> Slight irregularities in shape (still functional)<br><strong>Glaze Skips:</strong> Small areas where glaze didn't fully cover<br><strong>Kiln Marks:</strong> Small marks from kiln furniture</p><p>All imperfections are clearly noted in each product description with photos.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "value_proposition": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "right",
+        "image_width": 400,
+        "title": "The Beauty of Imperfection",
+        "text": "<p>In Japanese aesthetics, there's a concept called wabi-sabi - finding beauty in imperfection. These pieces embody that philosophy, showing the honest character of handmade pottery.</p><p>Each 'imperfection' tells a story of the making process and makes each piece even more unique. They're perfect for daily use or as gifts for those who appreciate authentic handmade items.</p>",
+        "button_label": "Learn About Wabi-Sabi",
+        "button_url": "/pages/about",
+        "color_scheme": "2"
+      }
+    },
+    "customer_testimonials": {
+      "type": "rich-text",
+      "settings": {
+        "title": "What Customers Say",
+        "text": "<p><em>\"I love my seconds pieces! The 'imperfections' make them even more special and unique. Great value for beautiful handmade pottery.\"</em> - Sarah M.</p><p><em>\"The quality is exactly the same as the regular pieces. I can barely see the imperfections mentioned, and I saved 30%!\"</em> - Michael D.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "what_are_seconds",
+    "main",
+    "imperfection_guide",
+    "value_proposition",
+    "customer_testimonials"
+  ]
+} 

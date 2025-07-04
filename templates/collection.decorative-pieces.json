@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Decorative Pieces",
+            "heading_max_width": 15,
+            "title_size": 54,
+            "title_size_mobile": 30,
+            "use_h1": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Artistic pottery pieces designed to enhance your home. From elegant vases to sculptural bowls, each piece is a work of art.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 450,
+        "height_mobile": 350,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": false,
+        "heading_image_height": "large",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "below",
+        "coll_num_per_page_int": 20,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": true,
+        "filter_two_columns": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "gallery",
+        "rel_coll_gall_aspect_ratio": "2",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "decorative_features": {
+      "type": "multi-column",
+      "blocks": {
+        "feature_1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unique Glazes",
+            "text": "<p>Each piece features carefully developed glazes that create depth, texture, and visual interest. From subtle earth tones to bold metallics.</p>"
+          }
+        },
+        "feature_2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Artistic Forms",
+            "text": "<p>These pieces are designed primarily for beauty, with forms that complement modern and traditional home decor styles.</p>"
+          }
+        },
+        "feature_3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Statement Pieces",
+            "text": "<p>Perfect for mantels, shelves, or as centerpieces. Each piece adds character and warmth to your living space.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_1",
+        "feature_2",
+        "feature_3"
+      ],
+      "settings": {
+        "title": "Art for Your Home",
+        "columns_desktop": 3,
+        "color_scheme": "2"
+      }
+    },
+    "styling_tips": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Styling Tips",
+        "text": "<p><strong>Vases:</strong> Beautiful empty or filled with fresh or dried flowers<br><strong>Bowls:</strong> Perfect for keys, jewelry, or as sculptural elements<br><strong>Wall Pieces:</strong> Create gallery walls with multiple pieces<br><strong>Groupings:</strong> Combine different heights and textures for visual impact</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "gallery_inspiration": {
+      "type": "gallery",
+      "blocks": {
+        "media_1": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": true,
+            "subheading": "Living Room",
+            "title": "Mantel Display",
+            "button_label": "Shop the Look",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_2": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": false,
+            "subheading": "Bedroom",
+            "title": "Bedside Styling",
+            "button_label": "Shop the Look",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_3": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": false,
+            "subheading": "Kitchen",
+            "title": "Open Shelving",
+            "button_label": "Shop the Look",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_4": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": true,
+            "subheading": "Dining Room",
+            "title": "Centerpiece Ideas",
+            "button_label": "Shop the Look",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_1",
+        "media_2",
+        "media_3",
+        "media_4"
+      ],
+      "settings": {
+        "title": "Styling Inspiration",
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 350,
+        "mobile_image_height": 250,
+        "title_size": 24,
+        "title_size_mobile": 20,
+        "enable_margin": true,
+        "enable_row_spacing": false,
+        "full_width": true,
+        "color_scheme": "2",
+        "enable_carousel": false,
+        "overlay_style": "shadow",
+        "button_style": "secondary"
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "main",
+    "decorative_features",
+    "styling_tips",
+    "gallery_inspiration"
+  ]
+} 

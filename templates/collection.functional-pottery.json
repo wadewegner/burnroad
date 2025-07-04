@@ -1,0 +1,115 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Functional Pottery",
+        "text": "<p>Beautiful pieces designed for daily use. Each item is food-safe, microwave and dishwasher safe, and built to last for years of daily enjoyment.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1",
+        "button_label": "Shop Functional Pieces",
+        "button_url": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": false,
+        "heading_image_height": "large",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "below",
+        "coll_num_per_page_int": 24,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": true,
+        "filter_two_columns": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "2",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "functional_features": {
+      "type": "multi-column",
+      "blocks": {
+        "feature_1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Food Safe & Durable",
+            "text": "<p>All functional pieces are fired to stoneware temperatures (2200°F) making them completely food-safe and durable for daily use.</p>"
+          }
+        },
+        "feature_2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Microwave & Dishwasher Safe",
+            "text": "<p>Designed for modern living - all pieces are safe for microwave, dishwasher, and oven use up to 400°F.</p>"
+          }
+        },
+        "feature_3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unique & Handmade",
+            "text": "<p>Each piece is individually thrown on the pottery wheel, making every item one-of-a-kind with its own character.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_1",
+        "feature_2",
+        "feature_3"
+      ],
+      "settings": {
+        "title": "Built for Daily Use",
+        "columns_desktop": 3,
+        "color_scheme": "2"
+      }
+    },
+    "care_instructions": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Care Instructions",
+        "text": "<p><strong>Daily Care:</strong> Safe for dishwasher, microwave, and oven use. Avoid extreme temperature changes.</p><p><strong>Storage:</strong> Stack carefully with soft cloth or paper towels between pieces to prevent scratching.</p><p><strong>Cleaning:</strong> For stubborn stains, use baking soda paste. Avoid abrasive cleaners that could damage the glaze.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "size_guide": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 400,
+        "title": "Size Guide",
+        "text": "<p><strong>Mugs:</strong> 10-12 oz capacity, 3.5\" diameter<br><strong>Bowls:</strong> 16-20 oz capacity, 5-6\" diameter<br><strong>Plates:</strong> 8-10\" diameter, perfect for meals<br><strong>Serving Pieces:</strong> Varied sizes for different needs</p><p>All measurements are approximate as each piece is individually handmade. Slight variations in size and shape are part of the handmade character.</p>",
+        "button_label": "View Size Comparisons",
+        "button_url": "/pages/about",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "main",
+    "functional_features",
+    "care_instructions",
+    "size_guide"
+  ]
+} 

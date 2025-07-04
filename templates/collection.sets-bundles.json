@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Sets & Bundles",
+        "text": "<p>Coordinated pottery pieces designed to work together. Perfect for gifting or creating a cohesive look in your home. Save when you buy multiple pieces together.</p>",
+        "text_alignment": "center",
+        "color_scheme": "1",
+        "button_label": "Shop Sets",
+        "button_url": ""
+      }
+    },
+    "bundle_benefits": {
+      "type": "multi-column",
+      "blocks": {
+        "benefit_1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Coordinated Designs",
+            "text": "<p>Each set is carefully curated to include pieces that complement each other in color, texture, and style. Perfect harmony for your table or home.</p>"
+          }
+        },
+        "benefit_2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Bundle Savings",
+            "text": "<p>Save 10-20% when you buy sets compared to purchasing individual pieces. The more you buy, the more you save on shipping too.</p>"
+          }
+        },
+        "benefit_3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Perfect for Gifting",
+            "text": "<p>Sets come beautifully packaged and include care instructions. Perfect for weddings, housewarmings, or any special occasion.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ],
+      "settings": {
+        "title": "Why Buy Sets?",
+        "columns_desktop": 3,
+        "color_scheme": "2"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": false,
+        "heading_image_height": "large",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "below",
+        "coll_num_per_page_int": 16,
+        "grid": 2,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": true,
+        "filter_two_columns": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "gallery",
+        "rel_coll_gall_aspect_ratio": "2",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "1"
+      }
+    },
+    "set_types": {
+      "type": "multi-column",
+      "blocks": {
+        "type_1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Coffee & Tea Sets",
+            "text": "<p>Matching mugs, cream and sugar sets, or complete tea service pieces. Perfect for your daily ritual or entertaining guests.</p>"
+          }
+        },
+        "type_2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Dinnerware Sets",
+            "text": "<p>Coordinated plates, bowls, and serving pieces. From simple place settings to complete dinner service for four or more.</p>"
+          }
+        },
+        "type_3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Serving Collections",
+            "text": "<p>Entertaining pieces that work together - serving bowls, platters, and decorative pieces for your next gathering.</p>"
+          }
+        },
+        "type_4": {
+          "type": "text_block",
+          "settings": {
+            "title": "Home Decor Sets",
+            "text": "<p>Coordinated vases, planters, and decorative bowls that create a cohesive look throughout your living space.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "type_1",
+        "type_2",
+        "type_3",
+        "type_4"
+      ],
+      "settings": {
+        "title": "Types of Sets Available",
+        "columns_desktop": 2,
+        "color_scheme": "1"
+      }
+    },
+    "gift_information": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 400,
+        "title": "Perfect for Gift Giving",
+        "text": "<p>Every set includes beautiful packaging and care instructions. We can also include a handwritten note with your gift message.</p><p><strong>Popular Gift Sets:</strong></p><ul><li>Newlywed Dinnerware Set</li><li>Housewarming Coffee Set</li><li>Mother's Day Tea Service</li><li>Holiday Entertaining Collection</li></ul><p>All sets are carefully wrapped and shipped with extra protection for safe delivery.</p>",
+        "button_label": "Gift Wrapping Options",
+        "button_url": "/pages/shipping-returns",
+        "color_scheme": "2"
+      }
+    },
+    "custom_sets": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Custom Set Requests",
+        "text": "<p>Don't see exactly what you're looking for? I can create custom sets tailored to your needs. Whether you want specific colors, quantities, or piece types, I'm happy to work with you.</p><p>Custom sets typically have a 4-6 week lead time and require a 50% deposit. Contact me to discuss your vision!</p>",
+        "text_alignment": "center",
+        "color_scheme": "1",
+        "button_label": "Request Custom Set",
+        "button_url": "/pages/custom-orders"
+      }
+    },
+    "care_instructions": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Caring for Your Set",
+        "text": "<p><strong>Storage:</strong> Stack pieces carefully with soft cloths between items<br><strong>Cleaning:</strong> All pieces are dishwasher safe on the top rack<br><strong>Use:</strong> Microwave and oven safe up to 400°F<br><strong>Longevity:</strong> With proper care, your set will last for decades</p>",
+        "text_alignment": "center",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "bundle_benefits",
+    "main",
+    "set_types",
+    "gift_information",
+    "custom_sets",
+    "care_instructions"
+  ]
+} 
