@@ -1,14 +1,20 @@
 {
   "sections": {
     "hero_section": {
-      "type": "rich-text",
+      "type": "image-with-text-overlay",
       "settings": {
+        "image": "https://cdn.shopify.com/s/files/1/0533/2089/files/pottery-hero-background.jpg",
+        "image_height": 400,
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "text_alignment": "center",
+        "image_overlay_opacity": 30,
+        "color_scheme": "background-1",
         "title": "Small Batch Pottery",
         "text": "<p>Handcrafted in Lake Stevens, WA<br>Each piece is hand-thrown and fired with care in monthly kiln loads</p>",
-        "text_alignment": "center",
-        "color_scheme": "1",
         "button_label": "Shop Current Collection",
-        "button_url": "/collections/all"
+        "button_link": "/collections/all"
       }
     },
     "announcement": {
