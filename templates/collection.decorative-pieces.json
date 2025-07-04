@@ -27,8 +27,8 @@
       ],
       "settings": {
         "height": "fixed",
-        "height_desktop": 450,
-        "height_mobile": 350,
+        "height_desktop": 460,
+        "height_mobile": 360,
         "image_link": "",
         "full_width": true,
         "text_alignment": "center center",
