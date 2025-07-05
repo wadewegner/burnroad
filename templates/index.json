@@ -33,13 +33,13 @@
         "subheading_x99jiE": {
           "type": "subheading",
           "settings": {
-            "subheading": "Tell your story"
+            "subheading": "I believe in slow, intentional making — creating beautiful, durable ceramics that feel good in your hands and fit seamlessly into your life."
           }
         },
         "heading_6dGfGy": {
           "type": "heading",
           "settings": {
-            "title": "Image with text overlay",
+            "title": "Crafted for Everyday Beauty",
             "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 32,
@@ -49,7 +49,7 @@
         "text_AiG3BR": {
           "type": "text",
           "settings": {
-            "text": "<p>Promote your brand or products with this feature section</p>",
+            "text": "<p>Artful, functional ceramics meant to be used, loved, and passed down</p>",
             "enlarge_text": true
           }
         }
