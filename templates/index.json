@@ -9,24 +9,6 @@
  */
 {
   "sections": {
-    "hero_section": {
-      "type": "rich-text",
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "color_scheme": "1"
-      }
-    },
-    "announcement": {
-      "type": "rich-text",
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "color_scheme": "1"
-      }
-    },
     "image_with_text_overlay_aA4kfq": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -154,8 +136,6 @@
     }
   },
   "order": [
-    "hero_section",
-    "announcement",
     "image_with_text_overlay_aA4kfq",
     "featured_collection",
     "about_preview",
