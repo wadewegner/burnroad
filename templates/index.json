@@ -61,6 +61,7 @@
       ],
       "name": "Image with text overlay",
       "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Jul_4_2025_06_00_40_PM.png",
         "height": "fixed",
         "height_desktop": 600,
         "height_mobile": 460,
